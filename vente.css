@@ -1,0 +1,76 @@
+body {
+    background-color: #F2F3EF; 
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.mosaiquevente {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colonnes*/
+    grid-template-rows: auto; /* Lignes*/
+    gap: 15px; /* Réduction de l'espace entre les photos */
+    width: 100%; /* Taille du container */
+    height: auto;
+    padding-top: 5%;
+}
+
+/* Media query pour les écrans plus grands */
+@media (min-width: 800px) {
+    .mosaiquevente {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.bandeauintroimg {
+    padding-top: 1%;
+    width: 100%;
+    height: auto;
+}
+
+.visuthé{
+
+    width: 100%;
+    height: auto;
+}
+
+.buyme {
+    width: 90%;
+position: relative;    bottom: 10px; /* Ajustez cette valeur */
+    /* autres styles */
+}
+
+
+
+.teaname {
+    font-size: 19px; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.teaprice {
+    font-size: 19px; 
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.teamdesc {
+    color: #546A2A;
+    font-size: 13px;
+}
+
+.teaname:first-of-type {
+    margin-top: 20%;
+    margin-bottom: 20%; /* Ajustez cette valeur en fonction de l'espace que vous voulez */
+}
+
+.article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10, .article11, .article12 {
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    /* autres styles */
+    padding: 10%; /* Ajustez cette valeur */
+    box-sizing: border-box;
+    
+}
+
