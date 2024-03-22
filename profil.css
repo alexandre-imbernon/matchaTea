@@ -5,7 +5,15 @@ body, html {
     height: 100%;
     background-color: #f0f4ef;
   }
-  
+
+  body {
+    background-image: url(feuille.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    height: 135%;
+  }
+
   a {
     transform: rotate(-90deg);
     font-family: Lato;
