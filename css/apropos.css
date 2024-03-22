@@ -1,0 +1,52 @@
+body {
+background-color: #F2F3EF; 
+color: black;
+font-family: "Lato", sans-serif;
+font-style: normal;
+}
+
+.phototxt {
+display: flex; /* Utilise le modèle de boîte flexible pour faciliter le positionnement */
+flex-wrap: wrap; /* Permet au contenu de s'envelopper sur plusieurs lignes si nécessaire */
+align-items: center; /* Centre verticalement le contenu du container */
+}
+
+.descequipe {
+color: #546A2A;
+font-size: 19px;
+flex: 1; /* Fait en sorte que le texte prenne toute la largeur disponible */
+padding-left: 50px; /* Ajoute une marge à gauche pour l'espace entre l'image et le texte */
+}
+
+.photoequipe {
+height: 55%;
+width: 55%;
+object-fit: cover;
+border-radius: 50%;
+float: left;
+}
+
+.bold {
+font-weight: bold;
+color: #546A2A;
+}
+
+.the{
+position: fixed;
+top: 0;
+right: 0;
+padding: 0px 15px;
+margin: 2px;
+right: 20px;
+height: 50px;
+}
+
+@media (max-width: 600px) {
+.phototxt {
+flex-direction: column;
+}
+.photoequipe {
+order: -1;
+}
+}
+

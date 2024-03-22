@@ -1,0 +1,127 @@
+h2 {
+    font-family: Lato;
+    text-align: center;
+}
+
+.container_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    font-family: Lato;
+}
+
+.container_selection img {
+    max-width: 100%; /* Rendre les images responsives en ajustant leur largeur maximale */
+    height: auto; /* Permet aux images de conserver leur proportion */
+    
+}
+
+p {
+    padding-bottom: 2%;
+    text-align: center; /* Ajout de cette ligne pour centrer le texte des paragraphes */
+}
+
+.bouton {
+    display: inline-block;
+    padding: 1.5%;
+    background-color: #546a2a;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.bouton a {
+    transform: rotate(90deg);
+}
+
+.bouton:hover {
+    background-color: #0056b3;
+}
+
+.avant_footer {
+    
+    padding: 4% 4%;
+    text-align: center;
+    list-style: none;
+}
+
+.the {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0px 15px;
+    margin: 2px;
+    right: 20px;
+    height: 50px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .container_selection {
+        padding-right: 10%;
+        font-size:larger;
+        display: flex;
+        justify-content: center;
+    }
+
+
+  .footer-content {
+    font-size:larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .bouton {
+        padding: 1%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .avant_footer {
+        padding: 6% 6%;
+        margin-bottom: 25%;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+  ol {
+    font-size: 20px;
+  }
+
+  .compte {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px 15px;
+    margin: 2px;
+    border-radius: 2px;
+    right: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-family: lato;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+

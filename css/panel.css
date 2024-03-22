@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Lato;
+}
+
+/* VIDEO */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;                      /* couvre toute la zone avec la vidéo */
+}
+
+/* PANEL */
+
+.container {
+    position: relative;
+    z-index: 1; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    right: 45px;
+}
+
+
+.panel h2 {
+    text-align: center;
+    font-size: 28px; 
+    margin-bottom: 30px;
+    font-size: Lato;
+}
+
+.choixpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choixpanel a {
+    display: inline-block;
+    padding: 15px 30px; 
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #546a2a;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Lato;
+}
+
+.choixpanel a:hover {
+    background-color: #40591c;
+}
+
+
+/* Styles pour les écrans de taille moyenne et plus petits */
+
+@media screen and (max-width: 768px) {
+    .panel {
+        padding: 20px;
+    }
+
+    .panel h2 {
+        font-size: 24px;
+    }
+
+    .choixpanel a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .panel {
+        padding: 20px;
+        padding-left: 70px;
+    }
+
+    .panel h2 {
+        font-size: 24px;
+    }
+
+    .choixpanel a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 225px) {
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel {
+        max-width: 90%; /* Réduire la largeur maximale du panneau */
+        width: auto; /* Ajuster la largeur automatiquement en fonction du contenu */
+        margin: 0; /* Annuler toute marge précédente */
+    }
+}
+
+

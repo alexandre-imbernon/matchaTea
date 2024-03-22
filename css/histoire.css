@@ -1,0 +1,48 @@
+main {
+        background-image: url("../images/font_ecran-histoire.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .carre_histoire, .carre_entreprise, .carre_engagement {
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 50px auto;
+        box-sizing: border-box; /* Pour inclure le padding et le border dans la largeur */
+    }
+    
+    .carre_histoire h3, .carre_entreprise h3, .carre_engagement h3 {
+        margin-top: 0; /* Supprimer la marge par défaut des titres h3 */
+    }
+    
+    p {
+        font-family: Lato;
+    }
+
+    .the {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 0px 15px;
+        margin: 2px;
+        right: 20px;
+        height: 50px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        main {
+          padding: 10px;
+          font-size: 120%;}
+      
+      
+        footer {
+            padding: 10px;
+          font-size: 120%;
+        }}
+      
+    
