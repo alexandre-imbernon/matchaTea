@@ -20,7 +20,7 @@ td, th {
 @media screen and (max-width: 600px) {
     td, th {
         padding: 2px; /* Réduire le padding pour les écrans plus petits */
-        border:5px;
+       
     }
 }
 
