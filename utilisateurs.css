@@ -17,6 +17,13 @@ td, th {
     border: 10px solid #546a2a;
 }
 
+caption {
+    padding-top: 5%;
+    font-size: large;
+    padding-bottom: 2%;
+}
+
+
 @media screen and (max-width: 600px) {
     td, th {
         padding: 2px; /* Réduire le padding pour les écrans plus petits */
