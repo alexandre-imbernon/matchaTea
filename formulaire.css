@@ -10,7 +10,7 @@ body {
   background-image: url(banner.jpg); 
   background-size: cover; 
   background-position: center; 
-  background-attachment: scroll;
+  background-attachment: fixed;
   height: 135%;
 }
 
@@ -278,4 +278,53 @@ form textarea:focus {
   margin: 2px;
   right: 20px;
   height: 50px;
+}
+
+
+/* Media query for 1920px screens */
+@media screen and (max-width: 1920px) {
+  main {
+      margin-left: 15%;
+  }
+  .order-form {
+      width: 100%;
+  }
+}
+
+/* Media query for 1024px screens */
+@media screen and (max-width: 1024px) {
+  main {
+      margin-left: 0;
+  }
+  .order-form {
+      width: 100%;
+  }
+}
+        
+/* Tablet 768px */
+@media screen and (max-width: 768px) {
+  main {
+      margin-left: 0;
+  }
+  .order-form {
+      width: 80%;
+  }
+}
+
+/* Mobile Phone 425px */
+@media screen and (max-width: 425px) {
+  .order-form {
+      width: 100%;
+  }
+
+  .order-form label,
+  .order-form input[type="text"],
+  .order-form input[type="email"] {
+      font-size: 18px;
+  }
+
+  .order-form button[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+  }
 }
