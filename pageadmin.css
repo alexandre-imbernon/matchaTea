@@ -1,0 +1,72 @@
+body {
+    background-color: #F2F3EF; 
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.mosaiquevente {
+    display: grid;
+    grid-template-rows: auto; /* Lignes*/
+    gap: 15px; /* Réduction de l'espace entre les photos */
+    width: auto; /* Taille du container */
+    height: 50%;
+    padding-top: 5%;
+    
+}
+
+.visuthé{
+    width: auto;
+    height: 100%;
+}
+
+.teaprice, .teaname{
+    font-size: 19px; 
+}
+
+.teamdesc {
+    color: #546A2A;
+    font-size: 13px; 
+}
+
+.description {
+    display: flex !important; /* Utilisez Flexbox */
+    flex-direction: column !important; /* Alignez les éléments verticalement */
+    margin-top: 3%;
+    text-align: start;
+    line-height: 0.2em;
+    font-size: large;
+    align-self: flex-start !important; /* Aligne cet élément au début de l'axe transversal */
+
+}
+
+.icones {
+    display: flex !important; /* Utilisez Flexbox */
+    flex-direction: row !important; /* Alignez les éléments verticalement */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.modification {
+    height: 40px;
+    width: 40px;
+}
+
+.suppression {
+    height: 40px;
+    width: 40px; 
+}
+
+.article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10, .article11, .article12 {
+    /* autres styles */
+    display: flex; /* Utilisez Flexbox */
+    flex-direction: row; /* Alignez les éléments horizontalement */
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    display: flex; /* Utilisez Flexbox */
+    flex-wrap: wrap; 
+    }
+
